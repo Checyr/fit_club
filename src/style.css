@@ -1,0 +1,558 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: #111317;
+    color: #FFFFFF;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.logo{
+    height: 2em;
+    margin-top: 1em;
+}
+
+a{
+    padding: 1.5em;
+    font-size: 15px;
+}
+
+.navbar-section{
+    margin-top: 1.5em;
+    padding: 0 8em;
+}
+
+.btn-default{
+    background-color: #f9ac54;
+    border-radius: 4px;
+    width: 9em;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    border: none;
+    height: 4em;
+}
+
+.btn-default:hover{
+    background-color: #d79447;
+}
+
+.main-container{
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.p-subtext{
+    padding-right: 8em;
+    color: #d1d5db;
+}
+.p-yellow{
+    color: #f9ac54;
+    font-weight: 600;
+}
+
+.inverse-highlight{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+#main-text{
+    text-transform: uppercase;
+    font-size: 72px;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+#header-foto{
+   /*  margin-top: 10em; */
+    height: 35em;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-arrow{
+    padding-top: 2em;
+}
+
+.btn-arrow:hover{
+    color: #d79447;
+}
+
+.section-explore{
+    display: flex;
+    justify-content: center;
+}
+
+.tabs-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .section-title{
+    
+} */
+
+h3{
+    text-transform: uppercase;
+    font-size: 32px;
+    max-width: fit-content;
+    float: inline-start;
+}
+
+.tabs{
+    flex-direction: row;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.p-tab{
+    color: #d1d5db;
+
+}
+
+#strength-tab{
+    background-color: #35373b;
+    margin: 1em;
+    padding: 0.8em;
+    max-width: 15em;
+    border: 2px solid #35373b;
+}
+
+#physical-tab{
+    background-color: #35373b;
+    margin: 1em;
+    padding: 0.8em;
+    max-width: 15em;
+    border: 2px solid #35373b;
+}
+
+#fat-tab{
+    background-color: #35373b;
+    margin: 1em;
+    padding: 0.8em;
+    max-width: 15em;
+    border: 2px solid #35373b;
+}
+
+#weight-tab{
+    background-color: #35373b;
+    margin: 1em;
+    padding: 0.8em;
+    max-width: 15em;
+    border: 2px solid #35373b;
+}
+
+
+#strength-tab:hover{
+    border: 2px solid #d79447;
+}
+
+#physical-tab:hover{
+    border: 2px solid #d79447;
+}
+
+#fat-tab:hover{
+    border: 2px solid #d79447;
+}
+
+#weight-tab:hover{
+    border: 2px solid #d79447 ;
+}
+
+.icon-tab{
+    padding: 0.15em;
+    background-color: #f9ac54;
+    border-radius: 8px;
+}
+
+.p-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-join{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.btn-join:hover{
+    color: #f9ac54;
+}
+
+#p-class-title{
+    margin-top: 3em;
+    margin-bottom: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-class{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15em;
+}
+
+.section-class{
+    padding-left: 5em;
+}
+
+#p-class{
+    color: #d1d5db;
+    margin-bottom: 4em;
+    float: left;
+}
+
+#img-under{
+    margin-top: 10em;
+    position: relative;
+    max-width: 35em;
+    max-height: 22em;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+#img-over{
+    position: relative;
+    max-width: 20em;
+    max-height: 12em;
+    border-radius: 12px;
+    left: 15em;
+    top: 27em;
+    z-index: 1;
+}
+
+
+#p-why-join{
+    text-align: center;
+        color: #d1d5db;
+}
+
+.h1-center{
+    text-align: center;
+}
+
+
+.p-center-desc{
+    color: #d1d5db;
+    text-align: center;
+}
+
+
+#join-foto{
+    display: block;
+    margin: 4em auto;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.bar-foto{
+    position: relative;
+    display: flex;
+    background-color: #1f2125;
+    max-width: 80em;
+    border-radius: 0.50em;
+    z-index: 1;
+    align-items: center;
+    left: 20em;
+    bottom: 10em;
+    padding: 2em;
+}
+.tab-bar-foto{
+    padding: 0 2em;
+}
+
+.bar-icon{
+    background-color: #f9ac54;
+    border-radius: 0.30em;
+}
+
+.p-subtext-bar{
+    color: #d1d5db;
+    max-height: 10em;
+}
+
+.section-princing{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.tabs-container-price{
+    display: flex;
+    justify-content: stretch;
+    gap: 1em;    
+}
+
+.tabs-price{
+    background-color: #1f2125;
+    padding: 2em;
+    border-radius: 8px;
+
+}
+
+.btn-join-plan{
+    background-color: transparent;
+    border: 2px solid #f9ac54;
+    border-radius: 6px;
+    width: 20em;
+    color: #f9ac54;
+    font-family: "Poppins",sans-serif;
+    height: 4em;
+    font-size: 14px;
+}
+
+.btn-join-plan:hover{
+    color: #ffffff;
+    background-color: #f9ac54;
+}
+
+#basic-tab{
+    border: 2px solid #1f2125;
+}
+
+#weekly-tab{
+    border: 2px solid #1f2125;
+}
+
+#monthly-tab{
+    border: 2px solid #1f2125;
+}
+
+#basic-tab button{
+    margin-top: 10em;
+}
+
+#weekly-tab button{
+    margin-top: 7em;
+}
+
+#monthly-tab button{
+    margin-top: 4em;
+}
+
+
+/*Hover animations*/
+
+#basic-tab:hover{
+    border: 2px solid #f9ac54;
+    background-color: #35373b;
+}
+
+#weekly-tab:hover{
+    border: 2px solid #f9ac54;
+    background-color: #35373b;
+}
+
+#monthly-tab:hover{
+    border: 2px solid #f9ac54;
+    background-color: #35373b;
+}
+
+.check-svg{
+    max-width: 1em;
+    padding-right: 1em;
+}
+
+.p-benefits{
+    text-wrap: nowrap;
+}
+
+.p-plan-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.price{
+    font-size: 36px;
+    padding: 0;
+    font-weight: 600;
+    margin: 0;
+}
+
+hr{
+    color: #ffffff;
+}
+
+/*REVIEW SECTION*/
+
+.quotation-marks{
+    font-size: 150px;
+    color: #d79447;
+    margin: 0;
+    max-width: min-content;
+    max-height: min-content;
+    float: left;
+    padding: 3em;
+    padding: 0.15em;
+}
+
+.section-review{
+    background-color: #35373b;
+    padding-left: 30em;
+}
+
+#review-text{
+    color: #d1d5db;
+}
+
+.full-star{
+    max-width: 1.5em;   
+}
+
+.half-star{
+    max-width: 1.5em;   
+}
+
+.review-person{
+    display: flex;
+    flex-direction: column;
+}
+
+#review-text{
+    max-width: 50em;
+}
+
+#foto-review{
+    clip-path: circle();
+    max-width: 4em;
+    position: absolute;
+}
+
+#p-title-member{
+    padding-top: 3em;
+}
+
+#review-name{
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 5em;
+    text-wrap: nowrap;
+    max-width: min-content;
+    margin-bottom: 0;
+}
+
+.p-subtext-soft{
+    color: #d1d5db;
+    margin-left: 5.8em;
+    margin-top: 0;
+}
+
+.arrow-right{
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    border: solid #FFFFFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(-225deg);
+    margin-left: 1em;
+    cursor: pointer;
+}
+.arrow-left{
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    border: solid #FFFFFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(315deg);
+    cursor: pointer;
+    margin-left: 2em;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-section-each{
+    padding-right: 5em;
+}
+
+.primary-footer-section{
+    padding-right: 5em;
+}
+
+.sub-section-title{
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+}
+footer{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.p-hover{
+    color: #d1d5db;
+}
+
+.p-hover:hover{
+    color: #f9ac54;
+}
+
+.icon-social{
+    max-width: 2em;
+    fill: #d1d5db;
+}
+
+.p-subtext-soft{
+    left: 0;
+}
+
+.arrow-and-pro{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60em;
+}
+
+p {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Classe que torna o elemento visível com a animação */
+p.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.nav-hover:hover{
+    border-bottom: 2px solid #d79447;
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-hover:hover::after {
+    transform-origin: 100% 50%;
+    transform: scaleX(1);
+  }
+  
+.icon-tab{
+    max-width: 3em;
+}
+
+.bar-icon{
+    max-width: 3em;
+    padding: 0.25em;
+}
